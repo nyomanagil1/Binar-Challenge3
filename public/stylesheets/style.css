@@ -62,15 +62,16 @@ body {
 /* LOGIN END */
 
 /* Nav+Sidebar Start */
+
 /* CONTENT SECTION BEGIN */
 .content-section {
   margin-left: 50px;
   margin-top: 70px;
 }
 /* CONTENT SECTION END */
-
 /* NAVBAR SECTION BEGIN */
 .navbar-section {
+  z-index: 1;
   position: fixed;
   right: 0;
   top: 0;
@@ -96,6 +97,7 @@ body {
   height: 100vh;
   color: white !important;
   font-size: 12px;
+  z-index: 2;
 }
 
 .main-menu a,
@@ -362,11 +364,10 @@ p {
 }
 
 .container-list-car {
-  width: 1100px;
+  width: 1200px;
   background-color: #e5e5e5;
   padding-left: 25px;
   padding-top: 27px;
-  padding-right: 24px;
   margin: auto;
 }
 
@@ -407,8 +408,8 @@ span.list-car {
 
 .list-button {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3.3%;
 }
 
 .card {
